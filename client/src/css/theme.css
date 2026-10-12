@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&display=swap');
+
+/* removes car pic, !important bc starter css is stubborn */
+body,
+.app,
+#root {
+  background: #ffeef4 !important;
+  background-image: none !important;
+  font-family: 'Fredoka', sans-serif;
+  color: #7a3b52;
+}
+
+h1, h2, h3 {
+  color: #c0305c;
+}
+
+button, [role="button"], input {
+  font-family: inherit;
+}
+
+.case-card {
+  background: white;
+  box-shadow: 0 4px 12px rgba(224, 102, 143, 0.2);
+}
+
+.list-msg {
+  color: #7a3b52;
+}

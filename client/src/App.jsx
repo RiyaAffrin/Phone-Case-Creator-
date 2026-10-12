@@ -6,24 +6,25 @@ import EditCar from './pages/EditCar'
 import CreateCar from './pages/CreateCar'
 import CarDetails from './pages/CarDetails'
 import './App.css'
+import './css/theme.css'
 
 const App = () => {
   let element = useRoutes([
     {
       path: '/',
-      element: <CreateCar title='BOLT BUCKET | Customize' />
+      element: <CreateCar title='Cutie Case | Design' />
     },
     {
       path:'/customcars',
-      element: <ViewCars title='BOLT BUCKET | Custom Cars' />
+      element: <ViewCars title='Cutie Case | My Cases' />
     },
     {
       path: '/customcars/:id',
-      element: <CarDetails title='BOLT BUCKET | View' />
+      element: <CarDetails title='Cutie Case | View' />
     },
     {
       path: '/edit/:id',
-      element: <EditCar title='BOLT BUCKET | Edit' />
+      element: <EditCar title='Cutie Case | Edit' />
     }
   ])
 

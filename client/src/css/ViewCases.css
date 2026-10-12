@@ -1,0 +1,57 @@
+.case-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  padding: 24px;
+}
+
+.case-card {
+  width: 190px;
+  padding: 16px;
+  border-radius: 20px;
+  background: #fff0f5;
+  color: #7a3b52;
+  text-align: center;
+  transition: transform 0.2s;
+}
+.case-card:hover {
+  transform: translateY(-4px); /* floaty */
+}
+.case-card h3 {
+  color: #7a3b52;
+  font-size: 18px;
+  margin: 8px 0 4px;
+}
+
+/* shrinks preview to half size */
+.thumb {
+  width: 100px;
+  height: 240px;
+  margin: 0 auto;
+}
+.thumb-inner {
+  transform: scale(0.5);
+  transform-origin: top left;
+  width: 200px;
+}
+
+.card-buttons {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card-buttons a,
+.card-buttons button {
+  width: auto;
+  padding: 4px 12px;
+  font-size: 14px;
+  margin: 0;
+}
+
+.list-msg {
+  text-align: center;
+  color: white;
+  padding: 40px;
+}
